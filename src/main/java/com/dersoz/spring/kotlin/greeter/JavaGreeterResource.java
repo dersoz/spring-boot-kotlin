@@ -1,7 +1,7 @@
-package hello.greeter;
+package com.dersoz.spring.kotlin.greeter;
 
-import hello.greeting.Greeting;
-import hello.greeting.JavaGreeting;
+import com.dersoz.spring.kotlin.greeting.Greeting;
+import com.dersoz.spring.kotlin.greeting.JavaGreeting;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

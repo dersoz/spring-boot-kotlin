@@ -1,4 +1,4 @@
-package hello.greeting;
+package com.dersoz.spring.kotlin.greeting;
 
 import lombok.*;
 

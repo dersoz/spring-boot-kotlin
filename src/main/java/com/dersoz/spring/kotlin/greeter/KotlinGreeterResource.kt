@@ -1,7 +1,7 @@
-package hello.greeter
+package com.dersoz.spring.kotlin.greeter
 
-import hello.greeting.Greeting
-import hello.greeting.KotlinGreeting
+import com.dersoz.spring.kotlin.greeting.Greeting
+import com.dersoz.spring.kotlin.greeting.KotlinGreeting
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.util.concurrent.atomic.AtomicLong
