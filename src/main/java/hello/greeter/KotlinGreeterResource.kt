@@ -1,5 +1,7 @@
-package hello
+package hello.greeter
 
+import hello.greeting.Greeting
+import hello.greeting.KotlinGreeting
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.util.concurrent.atomic.AtomicLong

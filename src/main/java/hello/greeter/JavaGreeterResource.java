@@ -1,5 +1,8 @@
-package hello;
+package hello.greeter;
 
+import hello.greeting.Greeting;
+import hello.greeting.JavaGreeting;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,6 +14,7 @@ public class JavaGreeterResource implements Greeter {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/java")
+    @NotNull
     @Override
     public Greeting greet() {
         return new JavaGreeting("  Java Hello", counter.incrementAndGet());
